@@ -1,25 +1,23 @@
 import "./App.css";
-import { Button, Card, Image, Dropdown } from "semantic-ui-react";
+import { Button, ButtonGroup, Stack } from "@chakra-ui/react";
+import { EmailIcon, ArrowForwardIcon, WarningIcon } from "@chakra-ui/icons";
 
 function App() {
   return (
     <div className="App">
-      <Button>Click Here</Button>
-      <Dropdown text="File">
-        <Dropdown.Menu>
-          <Dropdown.Item text="New" />
-          <Dropdown.Item text="Open..." description="ctrl + o" />
-          <Dropdown.Item text="Save as..." description="ctrl + s" />
-          <Dropdown.Item text="Rename" description="ctrl + r" />
-          <Dropdown.Item text="Make a copy" />
-          <Dropdown.Item icon="folder" text="Move to folder" />
-          <Dropdown.Item icon="trash" text="Move to trash" />
-          <Dropdown.Divider />
-          <Dropdown.Item text="Download As..." />
-          <Dropdown.Item text="Publish To Web" />
-          <Dropdown.Item text="E-mail Collaborators" />
-        </Dropdown.Menu>
-      </Dropdown>
+      <Button colorScheme="blue">Button</Button>
+      <Stack direction="row" spacing={4}>
+        <Button leftIcon={<EmailIcon />} colorScheme="teal" variant="solid">
+          Email
+        </Button>
+        <Button
+          rightIcon={<ArrowForwardIcon />}
+          colorScheme="teal"
+          variant="outline"
+        >
+          Call us
+        </Button>
+      </Stack>
     </div>
   );
 }
