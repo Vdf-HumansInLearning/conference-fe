@@ -1,23 +1,7 @@
 import Navbar from "../components/Navbar";
 import CardSession from "../components/CardSession";
-import {
-  Box,
-  Flex,
-  Avatar,
-  HStack,
-  IconButton,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
-  useDisclosure,
-  useColorModeValue,
-  Stack,
-  VStack,
-} from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon, AddIcon } from "@chakra-ui/icons";
+import { Box, Flex, Button, VStack } from "@chakra-ui/react";
+import { AddIcon } from "@chakra-ui/icons";
 
 function DashboardPage() {
   return (
