@@ -44,7 +44,7 @@ function LoginForm({ handleLogin }) {
             <Stack spacing={10}>
               <Button
                 onClick={handleLogin}
-                bg={"#319795"}
+                bg={"teal"}
                 color={"white"}
                 _hover={{
                   bg: "#2e8e8c",

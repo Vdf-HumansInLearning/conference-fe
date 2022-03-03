@@ -11,7 +11,7 @@ function DashboardPage() {
         <Button
           variant={"solid"}
           colorScheme={"teal"}
-          size={"sm"}
+          size={"md"}
           mr={4}
           leftIcon={<AddIcon />}
         >
@@ -50,6 +50,12 @@ function DashboardPage() {
           </VStack>
           <VStack>
             <h2 className="track-title">Track 5</h2>
+            <CardSession />
+            <CardSession />
+            <CardSession />
+          </VStack>
+          <VStack>
+            <h2 className="track-title">Track 6</h2>
             <CardSession />
             <CardSession />
             <CardSession />

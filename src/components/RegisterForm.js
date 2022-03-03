@@ -82,7 +82,7 @@ function RegisterForm({ handleRegister }) {
                 onClick={handleRegister}
                 loadingText="Submitting"
                 size="lg"
-                bg={"#319795"}
+                bg={"teal"}
                 color={"white"}
                 _hover={{
                   bg: "#2e8e8c",
