@@ -10,6 +10,7 @@ import {
   Heading,
   Text,
   useColorModeValue,
+  Image,
 } from "@chakra-ui/react";
 
 function LoginForm({ handleLogin }) {
@@ -18,10 +19,11 @@ function LoginForm({ handleLogin }) {
       minH={"100vh"}
       align={"center"}
       justify={"center"}
-      bg={useColorModeValue("gray.50", "gray.800")}
+      className="background-gradient"
     >
       <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
         <Stack align={"center"}>
+          <Image src="logo.svg" alt="logo" />
           <Heading fontSize={"4xl"}>Sign in to your account</Heading>
         </Stack>
         <Box

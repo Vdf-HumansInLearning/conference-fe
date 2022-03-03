@@ -4,7 +4,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./index.css";
 import Page404 from "./pages/Page404";
-import DashboardPage from "./pages/DashboardPage";
+import DashboardPage from "../src/pages/DashboardPage";
 import LoginPage from "../src/pages/LoginPage";
 import RegisterPage from "../src/pages/RegisterPage";
 
