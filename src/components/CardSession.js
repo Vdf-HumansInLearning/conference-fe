@@ -22,30 +22,29 @@ function CardSession() {
   return (
     <Box
       bg={useColorModeValue("white", "gray.800")}
-      minW="md"
+      minW="xs"
       borderWidth="1px"
       rounded="lg"
       shadow="lg"
       position="relative"
     >
       <Box p="6">
-        <Flex justifyContent="flex-end">
-          <CloseButton />
-        </Flex>
-        <Box d="flex" alignItems="baseline">
+        <Flex justifyContent="flex-end"></Flex>
+        <Box d="flex" alignItems="baseline" justifyContent="space-between">
           <Badge rounded="full" fontSize="0.8em" colorScheme="orange">
             {data.sessionType}
           </Badge>
+          <CloseButton />
         </Box>
         <Flex justifyContent="space-between" alignContent="center">
-          <Box fontSize="xl" color={useColorModeValue("gray.800", "white")}>
+          <Box fontSize="lg" color={useColorModeValue("gray.800", "white")}>
             {data.hour}
           </Box>
         </Flex>
 
         <Flex mt="1" justifyContent="space-between" alignContent="center">
           <Box
-            fontSize="2xl"
+            fontSize="xl"
             fontWeight="semibold"
             as="h4"
             lineHeight="tight"

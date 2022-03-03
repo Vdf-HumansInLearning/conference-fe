@@ -1,17 +1,20 @@
 .link--blue {
-    color: var(--chakra-colors-teal-500);
+  color: var(--chakra-colors-teal-500);
 }
 
 .track-title {
-    font-size: 32px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .background-gradient {
-    background: rgb(251, 235, 200);
-    background: linear-gradient( 315deg, rgba(251, 235, 200, 1) 0%, rgba(219, 246, 247, 1) 74%);
+  background: rgb(251, 235, 200);
+  background: linear-gradient(
+    315deg,
+    rgba(251, 235, 200, 1) 0%,
+    rgba(219, 246, 247, 1) 74%
+  );
 }
-
 
 /* background: rgb(255, 247, 231);
 background: linear-gradient( 315deg, rgba(255, 247, 231, 1) 0%, rgba(231, 244, 245, 1) 74%); */
